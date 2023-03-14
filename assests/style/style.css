@@ -3,16 +3,34 @@
     margin: 0;
     font-family: Arial, sans-serif;
 }
+.heading {
+    color: white;
+    margin-left: 0px;
+    float: left;
+    letter-spacing: 5px;
+    font-size: 10px;
+}
+.heading h4{
+    font-size: 2.5em;
+    margin: .7em 0 1em 0;
+    display: inline-block;
+    padding-top: 19px;
+}
+.heading img{
+    max-width: 70px;
+    float: left;
+    margin: 18px 10px 10px 140px;
+}
 header {
 	background-color: #151515;
-	font-family: 'Teko', sans-serif;
-font-family: 'Tilt Prism', cursive;
+    font-family: 'Roboto', sans-serif;
 	color:gold;
-	padding: 10px;
+	padding: 5px;
+
 }
 ul {
     list-style-type: none;
-    background-color: black;
+    background-color: rgb(13, 13, 13);
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -20,17 +38,19 @@ ul {
 }
 li {
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 40px;
     height: 60px;
-    color: aliceblue;
+    color: rgb(178, 180, 182);
+    top: 20%;
 }
 li a {
-color:gold;
+    color:rgb(210, 208, 200);
 text-align: center;
-margin :2 10px;
-padding: 14px 14px;
+margin :3 20px;
+padding: 20px 16px;
 text-decoration: solid;
-font-size: 30px;
+font-size: 25px;
+    
 }
 
 li a:hover {
@@ -38,15 +58,67 @@ li a:hover {
     color: black;
 }
 
-.active {
-    background-color: #4CAF50;
+.content {
+	display:block;
+	align-self: center;
+    color: #ddd;
+	width: 100%;
+	background-color: #1e1f1f;
+	min-height: 1000px;
+	min-width: 500px;
+	margin: 0px 0px 0px 0px;
+	border-width: 10px;
+	border-color: rgb(18, 17, 17);
+	border-style: solid;
+  }
+
+
+.row
+{
+    margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  width: 60%;
+  font-size: 50px;
 }
+p
+{
+    font-size: 25px;
+    margin-left: 1%;
+    width: 60%;
+    padding-top: 5%;
+}
+.box
+{
+    background-color: rgb(229, 217, 150);
+    width: 50px;
+    padding: 20px;
+    font-size: 80px;
+    color: #1c1b1b;
+}
+.button1{
+    float: left;
+    color: #000000;
+    border-radius: 30px;
+    border: 0.5px solid #000000;
+    padding: 10px 15px;
+    position: absolute;
+    width: 100px;
+    left: 2000px;
+    font-family: 'Roboto', sans-serif;
+    background: #F0FFA0;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
 footer {
     position:fixed;
     bottom:0;
-    color: gold;
+    color: rgb(231, 216, 133);
     text-align: center;
     width:100%;
-    height: 90px;
-    background-color: #282828;
+    height: 100px;
+    margin: 0;
+    background-color: #f4eeee;
   }
